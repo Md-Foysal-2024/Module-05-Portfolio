@@ -15,6 +15,11 @@ body {
     font-size: 20px;
     font-weight: 700;
     line-height: normal;
+    cursor: pointer;
+
+}
+.btn-primary:hover{
+    background-color: #c25101; 
 }
 
 .section-title{
@@ -56,7 +61,7 @@ nav li {
 }
 
 nav a {
-
+cursor: pointer;
     text-decoration: none;
 }
 
@@ -102,9 +107,51 @@ background-position: bottom left; */
 
 
 /* main section styles */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
 .about{
 padding: 130px;
 border-radius: 10px;
-background-color:  #fae4d2;
-margin:130px 130px;
+background-color:  #faece1;
+margin: 130px 0 ;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.about-info{
+    margin-top: 35px;
+    text-align: center;
+
+}
+.info-description{
+    margin: 0;
+    font-weight: 700;
+}
+.info-title{
+    margin: 0;
+font-weight: 400;
+}
+.what-i-do-des{
+    padding:30px 150px ;
+}
+
+.skill-container{
+display: flex;
+/* padding: 30px 150px; */
+justify-content: space-between;
+}
+
+.skill{
+    padding-top: 50px;
+    width: 200px;
+
+}
+.skill-description{
+    text-align: justify;
 }
